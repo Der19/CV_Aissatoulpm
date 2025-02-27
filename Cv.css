@@ -1,0 +1,135 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    color: #333;
+}
+
+/* Container */
+
+/* Images */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.image-container img {
+    width: calc(33.333% - 10px);
+    height: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: pink;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Section titles */
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+/* Personal information */
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.personal-info div {
+    width: 48%;
+}
+
+.personal-info h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.personal-info p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* Experience and Education */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.section p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 48%;
+    margin: 1%;
+    padding: 10px;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.skill p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #333;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #666;
+}
